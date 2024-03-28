@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto`
 
-`SEMESTRE`
+`1º semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O RH.IO é um projeto em HTML, CSS e JavaScript, que está sendo desenvolvido pelo grupo 4 afim de sanar os problemas recorrentes dos setores de rh de várias empresas, sendo eles: a falta de genrenciamento de dados de candidatos, o gasto de tempo desnecessário e gasto de recursos.
 
 ## Integrantes
 
 * Davi de Assis Vilela
 * Rayssa Lima 
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Hudson
+* Fernando
+* Fabiano
+
 
 ## Orientador
 
-* Nome completo do professor
+* Simone Alves Nogueira
 
 # Documentação
 

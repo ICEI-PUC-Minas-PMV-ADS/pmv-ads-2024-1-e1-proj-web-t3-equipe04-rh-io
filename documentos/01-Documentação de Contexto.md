@@ -1,6 +1,12 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Nos departamentos de Recursos Humanos, existe um intenso fluxo de pessoas realizando entrevistas de emprego. Observa-se casos em que candidatos se aplicam novamente para vagas às quais já foram reprovados, o que contribui para a sobrecarga no processo de seleção do candidato escolhido. Esse alto fluxo é um reflexo da falta transparência das empresas com o candidato.  
+
+De acordo com uma pesquisa feita pela plataforma de empregos Vagas.com, 16% dos candidatos optariam por aperfeiçoar a visibilidade das fases no processo seletivo com a intenção de saber o máximo de informações e detalhes possíveis sobre sua participação no processo seletivo.  
+
+Diante desse cenário, propomos o desenvolvimento de uma aplicação web inovadora que visa otimizar e organizar o processo de admissão de candidatos em entrevistas de emprego, feedbacks sobre o andamento do processo e otimização de tempo. 
+
+ 
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]

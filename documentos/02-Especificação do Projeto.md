@@ -143,8 +143,12 @@ Saber o status dos processos de admissão e demissão.  </td>
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  A aplicação deve ser disponibilizada em um ambiente acessível ao público na Internet.                    | ALTA    | 
+| RNF-02 |  A aplicação deverá ser adaptável, possibilitando a visualização otimizada em diversos dispositivos, tais como computadores, celulares, entre outros.                    | MÉDIA    | 
+| RNF-03 |  A aplicação deve apresentar compatibilidade com diversos navegadores. O site deve ser meticulosamente ajustado para assegurar um desempenho consistente nos principais navegadores.                     | ALTA   | 
+| RNF-04 |  A aplicação deve otimizar o desempenho do site a fim de assegurar tempos de carregamento rápidos.                     | ALTA   | 
+| RNF-05 |  O site deve ser fácil de usar, com uma interface intuitiva que permita aos usuários encontrar rapidamente as informações e funcionalidades que procuram                    | ALTA    | 
+| RNF-06 |  O site deve ser capaz de lidar com um aumento significativo no número de usuários e de conteúdo sem comprometer o desempenho ou a usabilidade                     | ALTA    | 
 
 **Prioridade: Alta / Média / Baixa. 
 

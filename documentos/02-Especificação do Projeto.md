@@ -105,8 +105,12 @@ Saber o status dos processos de admissão e demissão.  </td>
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Analista de RH     | Resolver problema de congestionamento de currículo.                       | Para uma melhor e mais precisa avaliação dos candidatos.                             |
+| Candidato                 | Saber do feedback sobre o processo seletivo.                       | Para saber qual status está o seu processo de contratação.                               |
+| Gerente de RH                 | Acesso a informações dos novos candidatos, tais como: Faculdades, cursos e experiências profissionais.                       | Saber se o candidato se encaixa no perfil da vaga.                               |
+| Colaborador                | Deseja subir de cargo na empresa pois o RH não consegue analisar o currículo de forma eficiente.                       | Aumento salarial.                             |
+| Coordenador de RH               | Quero saber como vai o andamento dos processos de admissão e demissão.                       | Garantir que os mesmos ocorram normalmente.                              |
+| Coordenador de projetos                | Uma forma de facilitar a comunicação entre setores.                      | Solicitar a admissão de candidatos para o preencimento da vaga do setor específico.                              |
 
 ## Requisitos do Projeto
 

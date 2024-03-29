@@ -114,12 +114,22 @@ Saber o status dos processos de admissão e demissão.  </td>
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
+
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |A aplicação deve proporcionar ao usuário a capacidade de registar uma conta. |ALTA| 
+| RF-02 |A aplicação deve facultar ao utilizador a possibilidade de efetuar o acesso à sua conta. | ALTA|
+| RF-03 |A aplicação deve oferecer ao usuário a funcionalidade de uma barra de pesquisa, permitindo a pesquisa de um candidato pelo seu nome ou número de identificação. |ALTA| 
+| RF-04 |A aplicação deve permitir que os recrutadores criem marcadores individuais indicando se o candidato foi reprovado ou aprovado. |MÉDIA |
+| RF-05 |A aplicação deve facultar ao usuário a capacidade de editar o perfil da sua conta registrada. |BAIXA | 
+| RF-06 |A aplicação deve possibilitar ao usuário efetuar o registo de colaboradores. |ALTA  |
+| RF-07 |A aplicação deve possibilitar ao recrutador a verificação das informações registradas no perfil do candidato. |ALTA | 
+| RF-08 |A aplicação deve permitir que o recrutador adicione documentos relevantes ao perfil do candidato. |ALTA  |
+| RF-09 |A aplicação deve permitir que os recrutadores avaliem os candidatos por meio de um sistema feedback. |MÉDIA | 
+| RF-10 |A aplicação deve incluir uma funcionalidade que permita aos usuários com daltonismo alterar os esquemas de cores. Essa opção é fundamental para garantir uma experiência acessível e inclusiva. |MÉDIA |
+| RF-11 |A aplicação exibe um quadro de solicitações de funcionários para determinados setores. |MÉDIA| 
+| RF-12|A aplicação deve possibilitar aos recrutadores enviar automaticamente um email aos candidatos reprovados, informando sobre a decisão. |BAIXA |
 
 **Prioridade: Alta / Média / Baixa. 
 

@@ -14,7 +14,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master: Davi de Assis vilela.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de tarefa.
+- Product Owner: Fernando Cardoso Nascimento e Fabiano Adrian de Souza Pereira.
 - Equipe de Desenvolvimento: Davi de Assis Vilela, Rayssa Lima Fernandes, Hudson Francisco dos Santos Martins, Fernando Cardoso Nascimento e Fabiano Adrian de Souza Pereira.
 - Equipe de Design: Davi de Assis Vilela, Hudson Francisco dos Santos Martins, Rayssa Lima Fernandes.
 

@@ -26,6 +26,25 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ### Processo
 
 [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+
+
+#### Duração da Sprint:
+- Optamos por sprints de uma semana, com uma duração total de sete dias. Essa escolha permite que tenhamos ciclos curtos de entrega e adaptação rápida às mudanças.
+
+#### Ferramenta de Gerenciamento de Backlog:
+- Para gerenciar nosso backlog e acompanhar o progresso das tarefas, estamos utilizando o Trello. Organizamos nossas atividades em quadros que representam o fluxo de trabalho, permitindo uma visão clara das tarefas pendentes, em andamento e concluídas.
+
+#### Reuniões Diárias (Daily Stand-up):
+- Realizamos nossas reuniões diárias todas as manhãs às 9h. Durante essas reuniões, cada membro da equipe compartilha brevemente o que realizou desde a última reunião, o que planeja fazer até a próxima e se há algum impedimento que precisa ser resolvido.
+
+#### Revisão da Sprint:
+- Ao final de cada sprint, realizamos uma revisão para revisar o trabalho concluído e garantir que atendemos aos objetivos estabelecidos para a sprint. Essa revisão permite ajustar nossas prioridades e estratégias para as próximas iterações.
+
+#### Retrospectiva da Sprint:
+- Nossas retrospectivas ocorrem aos sábados às 11h. Durante essa reunião, refletimos sobre o processo da sprint passada, identificamos pontos fortes e áreas para melhoria, e propomos ações para implementar essas melhorias na próxima sprint.
+
+<br> <br>
+
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 

@@ -40,6 +40,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 #### Retrospectiva da Sprint:
 - Nossas retrospectivas ocorrem aos sábados às 11h. Durante essa reunião, refletimos sobre o processo da sprint passada, identificamos pontos fortes e áreas para melhoria, e propomos ações para implementar essas melhorias na próxima sprint.
 
+
+<figure> 
+  <img src="./img/trello.png" />
+</figure> 
+
+
 <br> <br>
 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
@@ -65,6 +71,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
   <li>Infraestrutura (Infrastructure)</li>
   <li>Testes (Tests)</li>
 </ul>
+
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"

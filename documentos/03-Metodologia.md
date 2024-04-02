@@ -25,9 +25,6 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-
-
 #### Duração da Sprint:
 - Optamos por sprints de uma semana, com uma duração total de sete dias. Essa escolha permite que tenhamos ciclos curtos de entrega e adaptação rápida às mudanças.
 

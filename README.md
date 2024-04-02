@@ -14,7 +14,7 @@ O RH.IO é um projeto em HTML, CSS e JavaScript, que está sendo desenvolvido pe
 * Rayssa Lima Fernandes 
 * Hudson Franscisco dos Santos Martins
 * Fernando Cardoso Nascimento 
-* Fabiano Adrian de Souza Pereira 
+
 
 
 ## Orientador

@@ -84,8 +84,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | MockFlow                              | http://....                            |
-| Gerenciamento do Projeto            | Trello                   | http://....                            |
+| Projeto de Interface                | MockFlow                              |https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M68e431a7ab86229c3f3c85030700a7381712095068431&projectid=MAeiYPXgQpb&perm=Owner&space=MgdP7yIEDh#/page/fb7d2971bd5a46a7a9b201c4526dbed2) |
+| Gerenciamento do Projeto            | Trello                   | https://trello.com/u/daviassis4/boards |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 

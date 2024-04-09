@@ -1,5 +1,12 @@
 # Especificação do Projeto
 
+Nesta seção do documento, abordaremos a especificação do projeto RH.IO, focando na perspectiva dos usuários e nas etapas essenciais para seu desenvolvimento. Utilizaremos diversas técnicas e ferramentas, incluindo a histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
+
+As histórias de usuários serão essenciais para descrever as interações e funcionalidades desejadas pelos usuários ao utilizar a aplicação. Os requisitos funcionais e não funcionais serão estabelecidos para definir as características e capacidades que o sistema deve possuir para atender às necessidades identificadas.
+
+Adicionalmente, consideraremos as restrições do projeto, como o prazo de entrega e as tecnologias a serem utilizadas, garantindo a viabilidade e sucesso do RH.IO. Essas informações serão cruciais para definir uma solução eficaz e satisfatória, alinhada às necessidades e expectativas dos usuários, contribuindo para a otimização dos processos de recrutamento e seleção, e melhorando a experiência tanto dos candidatos quanto das empresas.
+
+
 ## Perfis de Usuários
 
 ### Perfil 01: Analista de RH

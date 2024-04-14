@@ -88,7 +88,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/blob/main/documentos/03-Metodologia.md|
-| Projeto de Interface                | MockFlow                              |https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M68e431a7ab86229c3f3c85030700a7381712095068431&projectid=MAeiYPXgQpb&perm=Owner&space=MgdP7yIEDh#/page/fb7d2971bd5a46a7a9b201c4526dbed2) |
+| Projeto de Interface                | Figma                              |        https://www.figma.com/file/C7fALvtlSYJAwghLJPXfrO/RH.IO?type=design&node-id=0%3A1&mode=design&t=rSJkqrvkF5j9yLfm-1                                |
 | Gerenciamento do Projeto            | Trello                   | https://trello.com/u/daviassis4/boards |
 | Hospedagem                          | Vercel                       | http://....                            |
 

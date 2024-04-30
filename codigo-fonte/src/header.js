@@ -20,3 +20,15 @@ closeMenu.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
     toggleMenu()
 })
+
+window.onload = () => {
+    const url = window.location.pathname;
+    const links = document.querySelectorAll('.menu-nav ul li a');
+    links.forEach(link => {
+        if (url.includes(link.getAttribute('href'))) {
+            link.parentElement.classList.add('active');
+        } else {
+            link.parentElement.classList.remove('active');
+        }
+    })
+}

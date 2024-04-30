@@ -163,3 +163,12 @@
     height: 20px;
     background-color: #000;
 }
+
+.menu-nav li {
+    padding: 3px;
+}
+
+.menu-nav li.active {
+    background-color: #fff;
+    border-radius: 4px;
+}

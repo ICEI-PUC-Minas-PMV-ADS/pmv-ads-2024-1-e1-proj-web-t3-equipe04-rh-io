@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #D0D0D0;
+    --cor2: #ECE2E3;
+    --cor3: #F2F2F2;
+    --cor4: #171719;
+
+    --fonte-secundaria: ;
+}
+body{
+    font-family: "Fenix", serif;
+    background: linear-gradient( var(--cor3) to bottom var(--cor2));
+}
+h1{
+    background-color: var(--cor2);
+    color: var(--cor4);
+}

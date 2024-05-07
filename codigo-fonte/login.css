@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #D0D0D0;
+    --cor2: #ECE2E3;
+    --cor3: #F2F2F2;
+    --cor4: #171719;
+
+    --fonte-secundaria: ;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Fenix", serif;
+    background-color: var(--cor3);
+}
+
+header{background-color: var(--cor2); 
+    color: black;
+    font-family: serif;
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+}

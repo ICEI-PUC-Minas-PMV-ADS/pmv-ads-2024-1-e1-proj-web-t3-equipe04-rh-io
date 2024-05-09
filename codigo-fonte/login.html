@@ -4,43 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="Login.css">
 </head>
 <body>
-    <!-- 
-        Header
-    -->
-    <header id="header">
-        <div class="header-container centralizer">     
-            <div class="menu-hamb">
-                <button id="menu">     
-                    <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0H38V4.8H0V0Z" fill="black"/>
-                        <path d="M0 9.6H38V14.4H0V9.6Z" fill="black"/>
-                        <path d="M0 19.2H38V24H0V19.2Z" fill="black"/>
-                    </svg>   
-                </button>
-            </div>
+    <header id="header">    
             <div class="logo">
                 <p>RH.IO</p>
+
             </div>
-            <div class="fill"></div>
         </div>
     </header>
-    <!-- 
-        Header
-    -->
-
-       <!-- 
-        MENU
-    -->
     <div class="card">
-        <img src="" alt="Login">
-        <article class="artigo"> <h2>Hello!</h2></article>
-        <h1>This is RH.IO</h1>
-        <p>A new way to organize your candidates</p>
-        <button class="botao"> Get Started!</button>
+        <div class="container-foto">
+            <p>Cadastre aqui</p>
+            <div class="foto"> 
+                <button id="card-button">
+                    <svg width="241" height="224" viewBox="0 0 241 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M44.7553 85.5086C48.6203 74.6938 54.8947 64.5238 63.7291 55.8422C95.1012 24.8363 145.949 24.8363 177.321 55.8422L185.904 64.375H168.688C159.803 64.375 152.625 71.4691 152.625 80.25C152.625 89.0309 159.803 96.125 168.688 96.125H224.655H224.856C233.741 96.125 240.919 89.0309 240.919 80.25V24.6875C240.919 15.9067 233.741 8.81251 224.856 8.81251C215.971 8.81251 208.794 15.9067 208.794 24.6875V42.15L200.009 33.4188C156.088 -9.98944 84.9115 -9.98944 40.9906 33.4188C28.743 45.5234 19.9086 59.7613 14.4875 74.9914C11.526 83.2762 15.9432 92.3051 24.2756 95.232C32.608 98.159 41.7937 93.7934 44.7553 85.5582V85.5086ZM11.5762 128.52C9.06641 129.264 6.65703 130.604 4.69941 132.588C2.6916 134.572 1.33633 136.954 0.633594 139.533C0.483008 140.129 0.332422 140.773 0.232031 141.418C0.0814451 142.262 0.03125 143.105 0.03125 143.948V199.313C0.03125 208.093 7.20918 215.188 16.0938 215.188C24.9783 215.188 32.1562 208.093 32.1562 199.313V181.9L40.9906 190.581C84.9115 233.94 156.088 233.94 199.959 190.581C212.207 178.477 221.091 164.239 226.513 149.058C229.474 140.773 225.057 131.745 216.724 128.818C208.392 125.891 199.206 130.256 196.245 138.491C192.38 149.306 186.105 159.476 177.271 168.158C145.899 199.164 95.051 199.164 63.6789 168.158L63.6287 168.108L55.0453 159.625H72.3125C81.1971 159.625 88.375 152.531 88.375 143.75C88.375 134.969 81.1971 127.875 72.3125 127.875H16.2945C15.4914 127.875 14.6883 127.925 13.8852 128.024C13.082 128.123 12.3291 128.272 11.5762 128.52Z" fill="black"/>
+                        </svg>
+                        
+                </button>
+            </div>
+        </div>
+       
+
+        <div class="card-item login active">
+            <h1>Bem Vindo !</h1>
+            <input type="text" placeholder="Login"> <br>
+            <input type="password" placeholder="Senha"> <br>
+            <button class="botao"> Começar!</button> <br>
+            <a href="">Esqueci minha senha</a>
+        </div>
+
+        <div class="card-item verso hide">    
+            <p>Digite seu email corporativo</p>
+            <input type="email"><br>
+            <p>Digite seu telefone</p>
+            <input type="tel"><br>
+            <p>Crie um login</p>
+            <input type="text" placeholder="Login"> <br>
+            <p>Crie uma senha</p>
+            <input type="password" placeholder="Senha"> <br>
+            <button>Registrar</button>
+        </div>
+
+
     </div>
 
+    <script>
+        const button = document.querySelector('#card-button')
+        button.addEventListener('click', ()=>{
+            const card_item1 = document.querySelector('.card-item.active')
+            const card_item2 = document.querySelector('.card-item.hide')
+
+            card_item1.classList.remove('active')
+            card_item1.classList.add('hide')
+
+            card_item2.classList.remove('hide')
+            card_item2.classList.add('active')
+
+            
+        })
+    </script>
 </body>
 </html>

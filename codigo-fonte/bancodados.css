@@ -1,0 +1,31 @@
+@charset "UTF-8"; 
+
+:root{
+    --cor0: #CBCBCD;
+    --cor1: #CBCBCD;
+    --cor2: #E0E0E2;
+    --cor3: #EDDBDB;
+    --cor4: #222127;
+
+    --fonte-secundaria: ;
+}
+header
+body{
+   background-image: linear-gradient(45deg, #222127,  #EDDBDB);
+
+}
+.table{background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+th{
+    background-color:var(--cor4);
+    color: rgba(255, 255, 255, 0.966);
+}
+td{
+    background-color: var(--cor1);
+}
+.titulo h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

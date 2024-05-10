@@ -13,14 +13,16 @@ var db_candidate_inicial = {
 }
 
 // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
-var db = JSON.parse(localStorage.getItem('db_candidate'));
+export var db = JSON.parse(localStorage.getItem('db_candidate'));
+
 if (!db) {
     db = db_candidate_inicial
 };
 
 // Exibe mensagem em um elemento de ID msg
 function displayMessage(msg) {
-    $('#msg').html('<div class="alert alert-warning">' + msg + '</div>');
+    const msgElement = document.getElementById('msg');
+    msgElement.innerHTML = '<div class="alert alert-warning">' + msg + '</div>';
 }
 
 function insertContato(cadidate) {
@@ -71,4 +73,22 @@ function deleteContato(id) {
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_candidate', JSON.stringify(db));
+}
+
+window.onload = function () {
+    const btn = document.getElementById('salve-candidate');
+    btn.addEventListener('click', function () {
+        const nome = document.querySelector('.name-cadidato').value;
+        const email = document.querySelector('.email-cadidato').value;
+        const telefone = document.querySelector('.cel-cadidato').value;
+        const cpf = document.querySelector('.cpf-cadidato').value;
+        const birthDate = document.querySelector('.birth-cadidato').value;
+
+        if (nome == "" || email == "" || telefone == "" || cpf == "" || birthDate == "") {
+            alert('Informe todos os campos para continuar!');
+            return;
+        }
+
+        insertContato({ nome, email, telefone, cpf, birthDate });
+    })
 }

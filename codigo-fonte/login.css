@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fenix&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --cor1: #D0D0D0;
     --cor2: #ECE2E3;
     --cor3: #F2F2F2;
@@ -9,95 +9,110 @@
 
     --fonte-secundaria: ;
 }
-*{
+
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     font-family: "Fenix", serif;
     background-color: var(--cor3);
 }
 
-header{background-color: var(--cor2); 
+header {
+    background-color: var(--cor2);
     width: 100%;
     height: 50px;
     margin: 0 auto;
 }
-header p{
+
+header p {
     text-align: center;
     font-size: 50px;
 }
 
-.card{
+.card {
     background-color: aliceblue;
     padding: 10px;
     margin: auto;
     margin-top: 120px;
     text-align: center;
     max-width: 800px;
-    
-    display: flex; /* foto */
-    justify-content: flex-start; /*foto*/
+    height: 400px;
+
+    display: flex;
+    /* foto */
+    justify-content: flex-start;
+    /*foto*/
 
     justify-content: space-around;
 
 }
-.card p{
-    font-size: 24px;
-    word-spacing:10px;
-    
+
+.card p {
+    font-size: 1rem;
 }
-.container-foto{
+
+.container-foto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.foto{
+
+.foto {
     margin-top: 50px;
     width: 150px;
     height: 150px;
 }
-button{
+
+button {
     background-color: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-.foto:hover  {
-    animation: girar 4s linear infinite; /* Aplica a animação girar */
+
+.botao-login {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer
 }
+
+
 
 @keyframes girar {
     from {
-        transform: rotate(0deg); /* Inicia a rotação a 0 graus */
+        transform: rotate(0deg);
+        /* Inicia a rotação a 0 graus */
     }
+
     to {
-        transform: rotate(360deg); /* Termina a rotação em 360 graus (uma volta completa) */
+        transform: rotate(360deg);
+        /* Termina a rotação em 360 graus (uma volta completa) */
     }
 }
 
-.login{
+.card-item {
     border: 1px solid black;
     width: 250px;
-    height: 250px;
-    padding: 40px 20px 30px 20px ;
+    padding: 40px 20px 30px 20px;
     font-size: 24px;
 }
 
-.esconder{
+.esconder {
     position: relative;
 }
 
-.verso, .frente {
+.verso,
+.frente {
     background-color: pink;
     position: relative;
 }
 
-.hide{
+.hide {
     display: none;
 }
-
-
-
-
-

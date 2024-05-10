@@ -4,7 +4,7 @@ var db_candidate_inicial = {
         {
             id: 1,
             name: "João da Silva",
-            email: "",
+            email: "joao_da_silva@email.com",
             telefone: "(11) 99999-8888",
             cpf: "123.456.789-00",
             birthDate: "01/01/1990",
@@ -75,9 +75,10 @@ function deleteContato(id) {
     localStorage.setItem('db_candidate', JSON.stringify(db));
 }
 
-window.onload = function () {
-    const btn = document.getElementById('salve-candidate');
-    btn.addEventListener('click', function () {
+function init() {
+    const btn = document.getElementById('salve-candidate') ?? null;
+    if (btn == null) return;
+    btn?.addEventListener('click', function () {
         const nome = document.querySelector('.name-cadidato').value;
         const email = document.querySelector('.email-cadidato').value;
         const telefone = document.querySelector('.cel-cadidato').value;
@@ -92,3 +93,5 @@ window.onload = function () {
         insertContato({ nome, email, telefone, cpf, birthDate });
     })
 }
+
+init()

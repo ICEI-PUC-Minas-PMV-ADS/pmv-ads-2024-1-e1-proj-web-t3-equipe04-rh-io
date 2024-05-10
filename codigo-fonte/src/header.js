@@ -4,6 +4,7 @@ const menuAside = document.querySelector('.menu-side');
 const overlay = document.querySelector('.overlay');
 const body = document.querySelector('body');
 
+
 const toggleMenu = () => {
     menuAside.dataset.open = menuAside.dataset.open === "true" ? "false" : "true";
     overlay.dataset.open = overlay.dataset.open === "true" ? "false" : "true";
@@ -21,8 +22,9 @@ overlay.addEventListener('click', () => {
     toggleMenu()
 })
 
-window.onload = () => {
+const init = () => {
     const url = window.location.pathname;
+
     const links = document.querySelectorAll('.menu-nav ul li a');
     links.forEach(link => {
         if (url.includes(link.getAttribute('href'))) {
@@ -32,3 +34,4 @@ window.onload = () => {
         }
     })
 }
+init()

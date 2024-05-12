@@ -20,7 +20,7 @@
 
 #header {
     height: 80px;
-    background-color: var(--bg);
+    background-color: #272B37;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +40,7 @@
     order: 2;
     text-align: center;
     flex-grow: 1;
+    color:azure;
 }
 
 .fill {

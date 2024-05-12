@@ -215,6 +215,7 @@ h1 {
 
 .linha-horizontal {
     margin-bottom: 15px; /* Define uma margem na parte inferior da linha */
+    right: 100%;
 }
 
 .center { /*Centralização das Tags Input*/
@@ -246,4 +247,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 10px;
+}
+body {
+    background-color: #323544;
 }

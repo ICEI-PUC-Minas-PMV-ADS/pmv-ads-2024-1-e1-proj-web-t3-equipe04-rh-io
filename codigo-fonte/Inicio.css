@@ -2,18 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Fenix&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor1: #D0D0D0;
-    --cor2: #ECE2E3;
-    --cor3: #F2F2F2;
-    --cor4: #171719;
+    --cor1: #1C92F4;    
+    --cor2: hsl(230, 9%, 39%); 
+    --cor3: #323544;
+    --cor4: #272B37;
 
     --fonte-secundaria: ;
 }
+
+.logo {
+    color: aliceblue;
+}
+
+header {
+    background-color: aqua;
+}
+
 body{
     font-family: "Fenix", serif;
     background: linear-gradient( var(--cor3) to bottom var(--cor2));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--cor3);
 }
-h1{
-    background-color: var(--cor2);
-    color: var(--cor4);
+
+footer {
+    background-color: var(--cor3);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
 }
+
+.Img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+

@@ -2,6 +2,12 @@
 
 *,
 :root {
+    --cor0: #c5c5c5;
+    --cor1: #1C92F4;
+    --cor2: #5A5D6C;
+    --cor3: #323544;
+    --cor4: #272B37;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;

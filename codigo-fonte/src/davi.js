@@ -12,8 +12,8 @@ const mapItem = (item) => {
                     <td>${item.cpf}</td>
                     <td>${item.birthDate}</td>
                     <td>
-                        <button class="btn btn-primary" onclick="updateContato(${item.id})">Editar</button>
-                        <button class="btn btn-danger" onclick="deleteContato(${item.id})">Excluir</button>
+                        <button class="btn-edit" onclick="updateContato(${item.id})">Editar</button>
+                        <button class="btn-delete" onclick="deleteContato(${item.id})">Excluir</button>
                     </td>
                 </tr>`
     }).join('')

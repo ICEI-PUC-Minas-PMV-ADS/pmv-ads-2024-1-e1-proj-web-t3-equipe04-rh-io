@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./solicitacao_de_funcionario.css">
     <title>Solicitacao</title>
 </head>
 <body>
@@ -85,7 +86,40 @@
     <main class="container-main">
         <div class="children-main centralizer">
             <section>
-                <h1>solicitacao de funcionarios</h1>
+               <div>
+
+                <form id="form-solicitacao">
+                    <div class="fields">
+                        <label for="setor">Setor</label>
+                        <input type="text" id="setor" class="input-full" name="setor" placeholder="Setor">
+                    </div>
+                    <div class="fields">
+                        <label for="vacancy">Vaga a ser preenchida</label>
+                        <input type="text" id="vacancy" class="input-full" name="vacancy" placeholder="Vaga">
+                    </div>
+                    <div class="fields-container">
+                        <div class="fields fields-date">
+                            <label for="date-init">Prazo Inicial</label>
+                            <input type="date" id="date-init" class="input-full" name="date-init">
+                        </div>
+                        <div class="fields fields-date">
+                            <label for="date-end">Prazo Final</label>
+                            <input type="date" id="date-end" class="input-full" name="date-end">
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <label for="complement">Complemente sua solicitação se necessário</label>
+                        <input type="text" id="complement" class="input-full" name="complement"  placeholder="Complemento">
+                    </div>
+
+                    <div id="msg"></div>
+                    <div class="actions-solicitacao"">
+                        <button type="button" class="cancel-button"">Cancelar</button>
+                        <button type="submit" class="save-button"">Enviar</button>
+                    </div>
+                </form>
+
+               </div>
             </section>
         </div>
     </main>
@@ -93,5 +127,6 @@
 
 
     <script type="module" src="./src/header.js"></script>
+    <script type="module" src="./src/solicitacao_de_funcionario.js"></script>
 </body>
 </html>

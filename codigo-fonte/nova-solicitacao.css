@@ -1,0 +1,79 @@
+body {
+    background-color: #272B37;
+
+}
+
+.container-solicitacao {
+    color: #fff;
+}
+
+.aside-setores {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    background-color: #333;
+    height: 100vh;
+
+}
+
+.list-setores {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-setores li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+.list-setores img {
+    border-radius: 50%;
+}
+
+.list-setores span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.children-main {
+    display: flex;
+    gap: 38px;
+}
+
+.main-solicitacao {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.item-solicitacao {
+    background-color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    color: #000;
+    width: 100%;
+}
+
+.header-solicitacao {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+.body-solicitacao p {
+    margin-bottom: 8px;
+}
+
+.content-solicitacao {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.body-solicitacao .vagas {}

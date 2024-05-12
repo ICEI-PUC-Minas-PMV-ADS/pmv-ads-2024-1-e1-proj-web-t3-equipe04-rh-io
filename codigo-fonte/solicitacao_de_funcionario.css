@@ -1,0 +1,63 @@
+#form-solicitacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body {
+    background-color: #272B37;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields label {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.fields input {
+    height: 32px;
+    padding-left: 8px;
+    width: 100%;
+    max-width: 480px;
+    outline: none;
+    border: 0;
+}
+
+.fields-container {
+    display: flex;
+    gap: 20px;
+}
+
+.fields-container input {
+    padding: 10px;
+}
+
+.actions-solicitacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.alert-warning {
+    color: #fff;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}

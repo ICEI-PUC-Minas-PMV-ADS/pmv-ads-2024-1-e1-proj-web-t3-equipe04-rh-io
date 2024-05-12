@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="Login.css">
+    <title>Cadastro de candidatos</title>
+    <link rel="stylesheet" href="edituser.css">
     <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
-  <!-- 
-        Header
-    -->
     <header id="header">
         <div class="header-container centralizer">     
             <div class="menu-hamb">
-                <button id="menu" class="hidden" style="display: none;">     
+                <button id="menu">     
                     <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0H38V4.8H0V0Z" fill="black"/>
                         <path d="M0 9.6H38V14.4H0V9.6Z" fill="black"/>
@@ -28,13 +26,7 @@
             <div class="fill"></div>
         </div>
     </header>
-    <!-- 
-        Header
-    -->
 
-       <!-- 
-        MENU
-    -->
     <aside class="menu-side" data-open="false">
         <div class="menu-side--container">
             <button class="btn close">
@@ -59,7 +51,7 @@
                         <li>
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                                 
-                            <a href="inicial.html">Solicitações de funcionários</a>
+                            <a href="solicitacao-de-funcionario.html">Solicitações de funcionários</a>
                         </li>
                         <li>
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M624 208h-64v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64h-64c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h64v64c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64h64c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm-400 48c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg>
@@ -77,65 +69,27 @@
         </div>
     </aside>
     <div class="overlay" data-open="false"></div>
-     <!-- 
-        MENU
-    -->
-
-
-    <div class="card">
-        <div class="container-foto">
-            <p>Cadastre-se clicando na seta abaixo !</p>
-            <div class="foto"> 
-                <button id="card-button">
-                    <svg width="129" height="127" viewBox="0 0 129 127" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.8985 48.2026C25.954 42.0596 29.2983 36.2803 34.013 31.3434C50.7553 13.7118 77.9432 13.6623 94.7497 31.2328L99.348 36.0682L90.1422 36.085C85.3917 36.0937 81.561 40.1278 81.5701 45.1124C81.5792 50.097 85.4245 54.1172 90.175 54.1085L120.101 54.054L120.208 54.0538C124.958 54.0452 128.789 50.011 128.78 45.0264L128.722 13.4853C128.713 8.50066 124.868 4.48053 120.118 4.48918C115.367 4.49783 111.536 8.53195 111.546 13.5166L111.564 23.4295L106.858 18.4816C83.3287 -6.11713 45.271 -6.0478 21.8318 18.6365C15.2956 25.5199 10.5866 33.6109 7.70375 42.2618C6.12882 46.9677 8.49999 52.0888 12.9583 53.7423C17.4166 55.3957 22.3236 52.9085 23.8986 48.2308L23.8985 48.2026ZM6.20244 72.6511C4.86126 73.076 3.57438 73.8387 2.52971 74.9671C1.4582 76.0955 0.736008 77.4486 0.36293 78.9137C0.283028 79.2518 0.203178 79.618 0.150167 79.9842C0.0705219 80.4631 0.0445552 80.9419 0.0454273 81.4207L0.10268 112.849C0.11176 117.834 3.95707 121.854 8.70758 121.845C13.4581 121.837 17.2887 117.803 17.2796 112.818L17.2616 102.933L21.9943 107.853C45.5232 132.423 83.5809 132.354 106.993 107.698C113.53 100.815 118.265 92.7235 121.148 84.1008C122.723 79.3949 120.352 74.2737 115.894 72.6203C111.435 70.9669 106.528 73.4541 104.953 78.1318C102.898 84.2748 99.5537 90.0541 94.839 94.991C78.0967 112.623 50.9088 112.672 34.1023 95.1016L34.0754 95.0735L29.4772 90.2662L38.7098 90.2494C43.4603 90.2407 47.2909 86.2066 47.2819 81.222C47.2728 76.2374 43.4275 72.2172 38.677 72.2259L8.72464 72.2805C8.29522 72.2812 7.86585 72.3102 7.43652 72.3673C7.0072 72.4244 6.60477 72.5096 6.20244 72.6511Z" fill="black"/>
-                        </svg>
-                        
-                </button>
-            </div>
-        </div>
+   
+    <main>
        
-
-        <div class="card-item login active">
-            <h1>Bem Vindo !</h1>
-            <input class="login-input" type="text" placeholder="Login"> <br>
-            <input class="password-input" type="password" placeholder="Senha"> <br>
-            <button id="login-user-button"  class="botao-login"> Começar!</button> <br>
+        <h2 class="titulo">Editar perfil do canditato</h2>
+        <div class="conteudo">
             
+            
+            <input type="text" name="Nome" placeholder="Nome"> <br>
+            <input type="number" name="celular" placeholder="Telefone"><br>
+            <input type="date" name = "nascimento" placeholder="Data de nascimento"><br>
+            <input type="text" name = funçao placeholder="Função"> <br>
+            <input type="email" name="email" placeholder="E-mail"><br>
+            <input type="number" name="cpf" placeholder="CPF"><br>
+            <button class="btn-save">Save</button>
+            <button class="btn-back">Back</button>
+           
+           
         </div>
 
-        <div class="card-item verso hide">    
-            <p>Digite seu e-mail corporativo</p>
-            <input class="input-email-register" type="email" placeholder="E-mail"><br>
-            <p>Digite seu nome completo</p>
-            <input class="input-nome-register" type="text" placeholder="Nome completo"><br>
-            <p>Crie um login</p>
-            <input class="input-login-register" type="text" placeholder="Login"> <br>
-            <p>Crie uma senha</p>
-            <input class="input-password-register" type="password" placeholder="Senha"> <br>
-            <button id="button-register" class="botao-registrar">Registrar</button>
-
-        </div>
-
-
-    </div>
-
+    </main>
     <script type="module" src="./src/header.js"></script>
-    <script type="module" src="./src/login.js"></script>
-    <script>
-        const button = document.querySelector('#card-button')
-        button.addEventListener('click', ()=>{
-            const card_item1 = document.querySelector('.card-item.active')
-            const card_item2 = document.querySelector('.card-item.hide')
-
-            card_item1.classList.remove('active')
-            card_item1.classList.add('hide')
-
-            card_item2.classList.remove('hide')
-            card_item2.classList.add('active')
-
-            
-        })
-    </script>
+    <script type="module" src="./src/davi.js"></script>
 </body>
 </html>

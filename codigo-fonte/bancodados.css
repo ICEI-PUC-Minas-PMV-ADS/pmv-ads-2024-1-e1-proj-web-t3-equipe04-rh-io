@@ -33,7 +33,9 @@ h2{
 }
 
 body{
-   background-color: var(--cor4);
+   
+    background-image: linear-gradient(45deg, #1a1d25, #3e404b );
+   background-attachment: fixed;
 
 }
 .table{
@@ -41,11 +43,12 @@ body{
     margin: 20px auto;
     max-width: 800px;
     color: white;
-    background-color:var(--cor2);
-    border: 1px solid black;
+    background-color:#5a5d6c6e;
     border-radius: 9px;
     padding: 5px 10px;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
 }
 
 
@@ -86,4 +89,10 @@ td{
     background-color: #fc2222;
     border-radius: 5px;
     color: white;
+ }
+ ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.301);
+    font: 12px verdana, arial, sans-serif;
+    padding: 5px;
+    text-align: left;
  }

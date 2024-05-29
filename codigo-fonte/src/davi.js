@@ -12,7 +12,7 @@ const mapItem = (item) => {
                     <td>${item.cpf}</td>
                     <td>${item.birthDate}</td>
                     <td>
-                        <button class="btn-edit" onclick="updateContato(${item.id})">Editar</button>
+                        <button class="btn-edit" onclick="updateContato(${item.id})"><a href="EditarcandidatoDavi.html">Editar</a></button>
                         <button class="btn-delete" onclick="deleteContato(${item.id})">Excluir</button>
                     </td>
                 </tr>`

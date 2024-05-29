@@ -1,37 +1,38 @@
-# Programação de Funcionalidades
+Tela de Login (RF-002) <br>
+Tela de Cadastro (RF-001)
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+O acesso a tela de login e  cadastro, o cadastro poderá ser feito através da seta a baixo de  “Cadastre-se”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+Exemplo da tela de login: <br>
+![Descrição da imagem](../public/rayssa/tela_login.jpeg)
 
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
+Exemplo da tela de cadastro: <br>
+![Descrição da imagem](../public/rayssa/tela_cadastro.jpeg)
 
 #### Requisito atendido
-
-[RF-X: adicione a descrição do requisito atendido]
+RF-001: O site deve permitir ao usuário cadastrar uma conta. <br>
+RF-002: O site deve permitir ao usuário efetuar login na conta.
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
+login.html
+login.css
+login.js
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+[login.html](../codigo-fonte/login.html)
+
 
 
 #### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
+Ao clicar na seta na esquerda da tela, terá acesso a página de cadastro.  
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+[Rayssa Lima]
 
 
 
@@ -41,4 +42,3 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-

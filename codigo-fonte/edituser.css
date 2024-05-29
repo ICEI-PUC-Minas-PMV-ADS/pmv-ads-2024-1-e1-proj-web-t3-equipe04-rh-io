@@ -19,7 +19,8 @@ font-size: 20px;
 font-weight: bold;
 }
 body{
-    background-color: var(--cor4);
+    background-image: linear-gradient(45deg, #1a1d25, #3e404b );
+    background-attachment: fixed;
     color: white;
 }
 h2{
@@ -29,12 +30,11 @@ h2{
 main{
     display: block;
     margin: 20px auto;
-    background-color: var(--cor3);
+    background-color:#5a5d6c6e;
     max-width: 800px;
-    box-shadow: 1px 3px 5px black;
-    padding: 20px
-    ;
-    
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+    border-radius: 5px;
 }
 .titulo{
     display: block;

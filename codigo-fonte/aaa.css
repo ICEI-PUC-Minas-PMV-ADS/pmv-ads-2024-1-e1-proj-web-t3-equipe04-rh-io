@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     font-family: 'Inter', sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -37,23 +37,26 @@
     align-items: center;
     /*Formatação do cabeçalho*/
 }
-    
 
-.centralizer { /*Botão menu*/
+
+.centralizer {
+    /*Botão menu*/
     width: 100%;
     max-width: var(--container);
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-.menu-hamb button { /*Desinger do botão*/ 
+.menu-hamb button {
+    /*Desinger do botão*/
     background: transparent;
     outline: none;
     cursor: pointer;
     border: none;
 }
 
-.menu-side { /*Designer do  menu */
+.menu-side {
+    /*Designer do  menu */
     background-color: var(--menu-side);
     height: 50vh;
     width: 320px;
@@ -180,7 +183,7 @@ a {
 input {
     display: flex;
     padding: 20px;
-    margin-left: 20px   ;
+    margin-left: 20px;
     width: 300px;
     height: 60px;
 }
@@ -190,7 +193,8 @@ h1 {
 
 }
 
-.botao { /*Direcinamento dos dois botoes Save e Back */
+.botao {
+    /*Direcinamento dos dois botoes Save e Back */
     display: flex;
     gap: 20px;
     margin-left: 100px;
@@ -210,6 +214,7 @@ h1 {
     font-size: 30px;
     margin: auto;
 }
+
 .Titulo {
     width: 20px;
     padding: 25px;
@@ -219,23 +224,28 @@ h1 {
 }
 
 .linha-horizontal {
-    margin-bottom: 15px; /* Define uma margem na parte inferior da linha */
+    margin-bottom: 15px;
+    /* Define uma margem na parte inferior da linha */
     right: 100%;
 }
 
-.center { /*Centralização das Tags Input*/
-    position:relative;
+.center {
+    /*Centralização das Tags Input*/
+    position: relative;
     margin-left: 60px;
-    display:block;
+    display: block;
     display: block;
     margin: 20px auto;
 
 }
 
-img {
-    width: 200px; /* Largura desejada */
-    height: 200px; /* Altura desejada */
-    float: right; /* Alinha a imagem à direita */
+.perfil-img {
+    width: 200px;
+    /* Largura desejada */
+    height: 200px;
+    /* Altura desejada */
+    float: right;
+    /* Alinha a imagem à direita */
     margin-right: 400px;
     margin-top: 250px;
 }
@@ -257,10 +267,11 @@ img {
     transform: translateX(-50%);
     margin-bottom: 10px;
 }
+
 body {
     background-color: #2b2d36;
 
-} 
+}
 
 .back-in-davi {
     width: 50px;
@@ -268,7 +279,8 @@ body {
     color: white;
     border-radius: 10px;
     background-color: red;
- }
+}
+
 #salve-candidate {
     width: 50px;
     height: 20px;
@@ -277,15 +289,15 @@ body {
     background-color: var(--cor1);
 }
 
-main { 
+main {
     display: block;
     margin: 20px auto;
     background-color: var(--cor3);
     max-width: 800px;
     box-shadow: 1px 3px 5px black;
-    padding: 20px
-    ;
+    padding: 20px;
 }
+
 input {
     width: 300px;
     height: 20px;

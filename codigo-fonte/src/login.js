@@ -143,7 +143,7 @@ window.onload = function () {
         }
 
         if (loginUser(login, senha)) {
-            window.location = 'Inicio.html';
+            window.location = 'index.html';
         }
         else {
             alert('Usuário ou senha inválidos!');
@@ -164,7 +164,7 @@ window.onload = function () {
 
         const res = addUser(input_name, login, senha, input_email);
         if (res) {
-            window.location = 'Inicio.html';
+            window.location = 'index.html';
         }
     })
 }

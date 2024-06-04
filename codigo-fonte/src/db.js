@@ -1,4 +1,5 @@
 // declara um conjunto inicial de contatos
+
 var db_candidate_inicial = {
     "cadidate": [
         {

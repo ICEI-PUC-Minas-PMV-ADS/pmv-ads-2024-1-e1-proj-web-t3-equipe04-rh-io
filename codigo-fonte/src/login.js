@@ -54,7 +54,6 @@ function initLoginApp() {
     // Obtem a string JSON com os dados de usuários a partir do localStorage
     var usuariosJSON = localStorage.getItem('db_usuarios');
 
-    console.log(usuariosJSON);
     // Verifica se existem dados já armazenados no localStorage
     if (!usuariosJSON) {  // Se NÃO há dados no localStorage
 

@@ -53,7 +53,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02:Verificar o funcionamento da tela de login.</td>
+  <td>CT-02:Verificar o funcionamento da tela de cadastro.</td>
   <td>
    <ul>
     <li>RF-001: O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -79,42 +79,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <br>
 <br>
 
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-01: Verificar o funcionamento da tela de login</td>
-  <td>
-   <ul>
-    <li>RF-002: O site deve permitir ao usuário fazer o login da sua conta.</li>
-   </ul>
-  </td>
-  <td>Verificar se o sistema de login está permitindo que o usuário conecte em sua conta corretamente</td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site: <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
-    <li>Visualizar a página de login.</li>
-    <li>Digitar o login e senha (exemplo = login: admin senha:123).</li>
-    <li>Clicar em entrar.</li>
-   </ol>
-   </td>
-  <td>O usuário deve ser encaminhado para a página home </td>
-  <td>Rayssa</td>
- </tr>
-</table>
-
-<hr/>
-<br>
-<br>
 
 
 <table>
@@ -224,6 +188,42 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Deve ser possível editar, excluir e salvar as informações do canditado, criar marcadores individuais e adicionar informações ao perfil do candidato já cadastrado.</td>
+  <td>Davi de Assis Vilela</td>
+ </tr>
+</table>
+
+<hr/>
+<br>
+<br>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-06: Verificar funcionamento da funcionalidade de banco de dados.</td>
+  <td>
+   <ul>
+    <li>RF - 03: A aplicação deve possibilitar um mecanismo de pesquisa;</li>
+    <li>RF - 04:A aplicação deve possibilitar marcações de candidato;</li>
+   </ul>
+  </td>
+  <td>Visualizar os dados de todos os candidatos.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o Endereço do site;  <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
+    <li>Visualizar a tela de inicial;</li>
+    <li>5. Acessar o menu no canto superior esquedo da tela;</li>
+    <li>Clicar em "Banco de Dados";</li>
+   </ol>
+   </td>
+  <td>Deve ser possível visualizar os dados dos candidatos e pesquisar por candidatos específicos.</td>
   <td>Davi de Assis Vilela</td>
  </tr>
 </table>

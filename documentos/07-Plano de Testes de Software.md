@@ -182,7 +182,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Informar o Endereço do site;  <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
     <li>Visualizar a tela de inicial;</li>
-    <li>5. Acessar o menu no canto superior esquedo da tela;</li>
+    <li>Acessar o menu no canto superior esquedo da tela;</li>
     <li>Clicar em "Banco de Dados";</li>
     <li>Clicar em 'editar' ao lado no nome do funcionário.</li>
    </ol>
@@ -219,11 +219,46 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Informar o Endereço do site;  <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
     <li>Visualizar a tela de inicial;</li>
-    <li>5. Acessar o menu no canto superior esquedo da tela;</li>
+    <li>Acessar o menu no canto superior esquedo da tela;</li>
     <li>Clicar em "Banco de Dados";</li>
    </ol>
    </td>
   <td>Deve ser possível visualizar os dados dos candidatos e pesquisar por candidatos específicos.</td>
   <td>Davi de Assis Vilela</td>
+ </tr>
+</table>
+
+<hr/>
+<br>
+<br>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-07: Verificar o funcionamento da tela de cadastro de novos candidatos.</td>
+  <td>
+   <ul>
+    <li>RF-006: A aplicação deve possibilitar ao usuário efetuar o registro de colaboradores.</li>
+   </ul>
+  </td>
+  <td>Cadastro de candidatos, salvar informações de candidatos e envia-las ao banco de dados.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o Endereço do site;  <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
+    <li>Visualizar a tela de inicial;</li>
+    <li>Clicar no menu no canto superior esquerdo;</li>
+    <li>Acessar "Cadastro de candidatos".</li>
+   </ol>
+   </td>
+  <td>O usuário deve conseguir criar um perfil e inserir as informações dos candidatos.</td>
+  <td>Fernando Cardoso</td>
  </tr>
 </table>

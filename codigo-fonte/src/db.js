@@ -31,6 +31,7 @@ function insertContato(cadidate) {
     let novoId = 1;
     if (db.cadidate.length != 0)
         novoId = db.cadidate[db.cadidate.length - 1].id + 1;
+
     let novoCadidate = {
         "id": novoId,
         "name": cadidate.nome,
@@ -39,6 +40,12 @@ function insertContato(cadidate) {
         "cpf": cadidate.cpf,
         "birthDate": cadidate.birthDate
     };
+
+    const cpfAlreadyExists = db.cadidate.some(c => c.cpf === novoCadidate.cpf);
+    if (cpfAlreadyExists) {
+        displayMessage("CPF já cadastrado");
+        return;
+    }
 
     // Insere o novo objeto no array
     db.cadidate.push(novoCadidate);

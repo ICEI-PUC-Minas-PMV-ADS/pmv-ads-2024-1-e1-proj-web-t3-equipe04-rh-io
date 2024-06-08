@@ -58,7 +58,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
             <p>Responsável: DAVI.</p>
             <br>
             <p>criando perfil de candidato </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LuzyHalS6iI?si=J3mfPwhRUl6HxX77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <a href="https://www.youtube.com/embed/LuzyHalS6iI?si=J3mfPwhRUl6HxX77" target="_blank">https://www.youtube.com/embed/LuzyHalS6iI?si=J3mfPwhRUl6HxX77</a>
         </div>
     </li>
     <br>
@@ -70,7 +70,19 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
             <p>Responsável: DAVI.</p>
             <br>
             <p>Testando tela de inicio </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EJu7t89jxkw?si=xScXOhNQsczmcZoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <a href="https://www.youtube.com/embed/EJu7t89jxkw?si=xScXOhNQsczmcZoO" target="_blank">https://www.youtube.com/embed/EJu7t89jxkw?si=xScXOhNQsczmcZoO</a>
+        </div>
+    </li>
+      <br>
+    <hr>
+    <br>
+    <li> 
+        <span>CT-06: Verificar funcionamento da funcionalidade de banco de dados.</span> 
+        <div> 
+            <p>Responsável: Fernando.</p>
+            <br>
+            <p>testando funcionalidade banco de dados</p>
+             <a href="https://www.youtube.com/watch?v=Xr_ZuEsQQfk" target="_blank">https://www.youtube.com/watch?v=Xr_ZuEsQQfk</a>
         </div>
     </li>
 </ol>

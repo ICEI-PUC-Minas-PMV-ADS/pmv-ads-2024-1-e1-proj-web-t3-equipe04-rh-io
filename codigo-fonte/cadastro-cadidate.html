@@ -31,7 +31,7 @@
               </div>
 
           <div class="logo">
-              <a href="Inicio.html" >
+              <a href="index.html" >
                   <p>RH.IO</p>
               </a>
 
@@ -48,7 +48,7 @@
       <!-- 
           MENU
       -->
-      <img src="Imgperfil.png" alt="">
+      <img class="perfil-img" src="Imgperfil.png" alt="">
       <aside class="menu-side" data-open="false">
         <div class="menu-side--container">
           <button class="btn close">
@@ -107,7 +107,7 @@
           <input class="cel-cadidato"  type="number" name="celular" placeholder="Celular"><br>
           <input class="birth-cadidato"  type="date" name = "nascimento"><br>
           <input class="email-cadidato"  type="email" name="email" placeholder="Email"><br>
-          <input class="cpf-cadidato"  type="number" name="cpf" placeholder="CPF"><br>
+          <input class="cpf-cadidato"  type="text" inputmode="numeric" name="cpf" placeholder="CPF"><br>
       </p>
       <div id="msg"></div>
           <div class="botao">
@@ -116,8 +116,10 @@
           </div>
       </div>
     </main>
+
       <script type="module" src="./src/header.js"></script>
       <script type="module" src="./src/db.js"></script>
       <script type="module" src="./src/project.js"></script>
+
     </body>
 </html>

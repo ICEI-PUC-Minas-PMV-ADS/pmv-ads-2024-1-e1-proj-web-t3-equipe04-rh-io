@@ -54,7 +54,6 @@ function initLoginApp() {
     // Obtem a string JSON com os dados de usuários a partir do localStorage
     var usuariosJSON = localStorage.getItem('db_usuarios');
 
-    console.log(usuariosJSON);
     // Verifica se existem dados já armazenados no localStorage
     if (!usuariosJSON) {  // Se NÃO há dados no localStorage
 
@@ -143,7 +142,7 @@ window.onload = function () {
         }
 
         if (loginUser(login, senha)) {
-            window.location = 'Inicio.html';
+            window.location = 'index.html';
         }
         else {
             alert('Usuário ou senha inválidos!');
@@ -164,7 +163,7 @@ window.onload = function () {
 
         const res = addUser(input_name, login, senha, input_email);
         if (res) {
-            window.location = 'Inicio.html';
+            window.location = 'index.html';
         }
     })
 }

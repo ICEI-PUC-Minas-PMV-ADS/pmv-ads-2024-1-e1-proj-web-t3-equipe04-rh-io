@@ -68,6 +68,7 @@ body {
 
 .body-solicitacao p {
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .content-solicitacao {
@@ -77,3 +78,29 @@ body {
 }
 
 .body-solicitacao .vagas {}
+
+.dates-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates-container .date {
+    font-size: 14px;
+}
+
+.dates-container .date span {
+    font-weight: 500;
+
+}
+
+.date-init {
+    color: #487a7e;
+    font-weight: 600;
+}
+
+.date-end {
+    color: #e74c3c;
+    font-weight: 600;
+}

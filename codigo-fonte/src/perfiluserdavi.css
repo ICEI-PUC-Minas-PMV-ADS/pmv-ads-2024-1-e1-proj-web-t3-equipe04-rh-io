@@ -15,6 +15,9 @@
 }
 #header {
     color: white;
+    display: flex;
+    align-items: center;
+    
     
 }
 body{
@@ -27,6 +30,21 @@ body{
 .conteudo-principal{
     display: flex;
     align-items: center;
+    margin: 20px auto;
+    
+    max-width: 800px;
+    color: white;
+    background-color:#5a5d6c6e;
+    border-radius: 9px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+}
+.titulo-secundario{
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 .logo{
     font-family: 'Times New Roman', Times, serif;
@@ -45,11 +63,32 @@ h1{
 
 input{
     background-color: var(--cor2);
-    display: block;
-    width: 300px;
+    border-radius: 10px;
+    width: 450px;
     height: 25px;
-    margin: 1px auto;
-    border-radius: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    font: 12px verdana, arial, sans-serif;
+ }
+.btn-sc{
+    
+}
+.btn-save{
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--cor1);
+}
+.btn-cancel{
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;;
 }
 
 

@@ -262,3 +262,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Fernando Cardoso</td>
  </tr>
 </table>
+
+<hr/>
+<br>
+<br>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-08: Verificar o funcionamento da tela de início.</td>
+  <td>
+   <ul>
+    <li>RF-xx</li>
+   </ul>
+  </td>
+  <td>Possibilitar que o usuário tenha acesso a informações básicas da empresa e ter acesso as funcionalidades através do menu.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o Endereço do site;  <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io/codigo-fonte/login.html">link</a></li>
+    <li>Visualizar a tela de inicial;</li>
+    <li>Logar na sua conta:</li>
+    <li>Acessar a tela inicial</li>
+   </ol>
+   </td>
+  <td>O usuário deve conseguir visualizar informações sobre a empresa.</td>
+  <td>Fernando Cardoso</td>
+ </tr>
+</table>

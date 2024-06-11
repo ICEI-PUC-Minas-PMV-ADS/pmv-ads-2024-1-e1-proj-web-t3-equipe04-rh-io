@@ -41,7 +41,7 @@ function insertSolicitacao(solicitacao) {
 
     // Insere o novo objeto no array
     db.solicitacao.push(novosolicitacao);
-    displayMessage("Candidato inserido com sucesso");
+    displayMessage("Vaga cadastrada com sucesso");
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_solicitacao', JSON.stringify(db));

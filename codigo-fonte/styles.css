@@ -118,6 +118,7 @@ body {
     color: #000;
 }
 
+
 .btn {
     background: transparent;
     border: 0;
@@ -220,6 +221,42 @@ body {
     text-decoration: none;
     color: #000;
     transition: all 0.3s ease-in-out;
+}
+
+#search-input {
+    outline: none;
+    border: 1px solid #eeee;
+    padding: 8px 4px;
+    background-color: transparent;
+    color: #eeee;
+    border-radius: 4px !important;
+}
+
+#search-input::placeholder {
+    color: #eeee;
+}
+
+#search-input:focus {
+    border: 2px solid #146bb2;
+}
+
+input[type="search"]::-webkit-search-clear-button {
+    display: none;
+}
+
+.card-item.verso input {
+    margin-bottom: 14px;
+}
+
+.card-item.verso p {
+    text-align: left;
+    margin-bottom: 4px;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+
+.titulo {
+    margin-top: 1rem;
 }
 
 .btn-edit:hover {

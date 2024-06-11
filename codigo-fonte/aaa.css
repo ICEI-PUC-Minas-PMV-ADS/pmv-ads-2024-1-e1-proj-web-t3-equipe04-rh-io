@@ -23,6 +23,10 @@
     --container: 1448px;
 }
 
+body {
+    color: #fff;
+}
+
 #header {
     height: 80px;
     background-color: var(--bg);
@@ -200,11 +204,6 @@ h1 {
     margin-left: 100px;
 }
 
-.Save {
-    width: 100px;
-    height: 50px;
-}
-
 .Back {
     width: 100px;
     height: 50px;
@@ -270,20 +269,28 @@ h1 {
 
 body {
     background-color: #2b2d36;
+    box-sizing: border-box;
 
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: 0;
 }
 
 .back-in-davi {
-    width: 50px;
-    height: 20px;
+    padding: 0.4rem 1rem;
     color: white;
     border-radius: 10px;
     background-color: red;
+    cursor: pointer;
 }
 
 #salve-candidate {
-    width: 50px;
-    height: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
     color: white;
     border-radius: 10px;
     background-color: var(--cor1);

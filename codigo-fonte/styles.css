@@ -18,6 +18,10 @@
     --container: 1448px;
 }
 
+body {
+    color: #fff;
+}
+
 #header {
     height: 80px;
     background-color: #24272e;
@@ -25,8 +29,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.26);
-    
-    
+
+
 }
 
 .header-container {
@@ -43,9 +47,9 @@
     order: 2;
     text-align: center;
     flex-grow: 1;
-    color:azure;
+    color: azure;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 }
 
 .fill {
@@ -111,6 +115,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    color: #000;
 }
 
 .btn {
@@ -124,6 +129,10 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+.alert {
+    margin-bottom: 16px;
 }
 
 .menu-nav ul li a {
@@ -181,6 +190,43 @@
     border-radius: 4px;
 }
 
+#menu svg {
+    color: #fff;
+}
+
 .container-main {
     margin-top: 3rem;
+}
+
+.td-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.td-actions button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-delete:hover {
+    background-color: rgb(118, 9, 9);
+}
+
+.btn-edit {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-edit a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-edit:hover {
+    background-color: #146bb2;
+
+}
+
+.btn-edit:hover a {
+    color: #fff;
 }

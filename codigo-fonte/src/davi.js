@@ -31,7 +31,7 @@ const mapItem = (item) => {
         tr.appendChild(tdBirthDate);
 
         const tdActions = document.createElement('td');
-
+        tdActions.className = 'td-actions';
         const btnEdit = document.createElement('button');
         btnEdit.className = 'btn-edit';
         const linkEdit = document.createElement('a');

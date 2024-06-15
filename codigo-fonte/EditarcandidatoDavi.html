@@ -76,20 +76,21 @@
         <div class="conteudo">
             
             
-            <input type="text" name="Nome" placeholder="Nome"> <br>
-            <input type="number" name="celular" placeholder="Telefone"><br>
-            <input type="date" name = "nascimento" placeholder="Data de nascimento"><br>
-            <input type="text" name = funçao placeholder="Função"> <br>
-            <input type="email" name="email" placeholder="E-mail"><br>
-            <input type="number" name="cpf" placeholder="CPF"><br>
-            <button class="btn-save">Save</button>
+            <input  class="editar-name" type="text" name="Nome" placeholder="Nome"> <br>
+            <input  class="editar-telefone" type="number" name="celular" placeholder="Telefone"><br>
+            <input  class="editar-birthDate" type="date" name = "nascimento" placeholder="Data de nascimento"><br>
+            <input  class="editar-work" type="text" name="funcao" placeholder="Função"> <br>
+            <input  class="editar-email" type="email" name="email" placeholder="E-mail"><br>
+            <input  class="editar-cpf" type="text" name="cpf" placeholder="CPF"><br>
+
+            <div id="msg"></div>
+            <button class="btn-save btn-save-editar">Save</button>
             <button class="btn-back"><a href="bancodados.html">Back</a></button>
-           
-           
         </div>
 
     </main>
     <script type="module" src="./src/header.js"></script>
+    <script type="module" src="./src/editar.js"></script>
   
 </body>
 </html>

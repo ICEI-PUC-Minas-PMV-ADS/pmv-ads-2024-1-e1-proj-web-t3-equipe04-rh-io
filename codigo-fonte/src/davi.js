@@ -35,7 +35,8 @@ const mapItem = (item) => {
         const btnEdit = document.createElement('button');
         btnEdit.className = 'btn-edit';
         const linkEdit = document.createElement('a');
-        linkEdit.href = 'EditarcandidatoDavi.html';
+
+        linkEdit.href = `EditarcandidatoDavi.html?cpf=${item.cpf}&name=${item.name}&email=${item.email}&telefone=${item.telefone}&birthDate=${item.birthDate}`;
         linkEdit.textContent = 'Editar';
         btnEdit.appendChild(linkEdit);
         tdActions.appendChild(btnEdit);
@@ -66,7 +67,7 @@ const serachByCpf = () => {
 
 
 const deleteClient = (event) => {
-    const btnCurrent = event.currentTarget
+    const btnCurrent = event?.currentTarget
     const $tr = btnCurrent.closest('tr')
     const cpf = $tr.dataset.id
     $tr.remove()
@@ -79,6 +80,4 @@ const deleteClient = (event) => {
 window.onload = function () {
     mapItem(db)
     serachByCpf()
-    deleteClient()
-
 }

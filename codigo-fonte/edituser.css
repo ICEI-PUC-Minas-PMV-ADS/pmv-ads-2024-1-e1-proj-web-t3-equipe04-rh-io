@@ -1,75 +1,119 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
-:root{
+:root {
     --cor0: #c5c5c5;
     --cor1: #1C92F4;
     --cor2: #5A5D6C;
     --cor3: #323544;
     --cor4: #272B37;
 
-   
+
 }
+
 #header {
     color: white;
-    
+
 }
-.logo{
+
+.logo {
     font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
-font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
-body{
-    background-image: linear-gradient(45deg, #1a1d25, #3e404b );
+
+body {
+    background-image: linear-gradient(45deg, #1a1d25, #3e404b);
     background-attachment: fixed;
     color: white;
 }
-h2{
+
+h2 {
     display: block;
     margin: 20px auto;
 }
-main{
+
+.conteudo input {
+    height: 40px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+}
+
+.conteudo input::placeholder {
+    color: #c5c5c5;
+}
+
+.conteudo button {
+    width: 100% !important;
+    max-width: 100px;
+    border: 0;
+    padding: 0.4rem 1rem;
+    height: 40px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.conteudo button:last-child {
+    margin-left: 10px;
+}
+
+.conteudo button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
     display: block;
     margin: 20px auto;
-    background-color:#5a5d6c6e;
+    background-color: #5a5d6c6e;
     max-width: 800px;
     box-shadow: 1px 1px 5px black;
     padding: 20px;
     border-radius: 5px;
 }
-.titulo{
+
+.titulo {
     display: block;
     margin: auto;
     padding: 10px;
 }
-input{
+
+input {
     background-color: var(--cor2);
     border-radius: 10px;
     width: 500px;
     height: 30px;
     padding: 10px;
     margin: 10px;
-    
+
 }
+
 ::-webkit-input-placeholder {
     color: rgb(255, 255, 255);
     font: 12px verdana, arial, sans-serif;
- }
- .btn-save{
+}
+
+.btn-save {
     width: 50px;
     height: 20px;
     color: white;
     border-radius: 10px;
     background-color: var(--cor1);
- }
- .btn-back{
+}
+
+.btn-back {
     width: 50px;
     height: 20px;
     color: white;
     border-radius: 10px;
     background-color: red;
 
- }
- .conteudo{
+}
+
+.conteudo {
     display: block;
     margin: 20px auto;
- }
+}

@@ -18,12 +18,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ## Vídeo de apresentação
 
-<video width="320" height="240" controls>
-  <source src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
-
+<video src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" data-canonical-src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
 
 
 ## Hospedagem

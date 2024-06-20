@@ -18,7 +18,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ## Vídeo de apresentação
 
-<video src="./assets/video-faculdade.mp4" data-canonical-src="./assets/video-faculdade.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+<video src="./assets/video-faculdade_IDJLJgI9.mp4" data-canonical-src="./assets/video-faculdade_IDJLJgI9.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 </video>
 
 

@@ -18,7 +18,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ## Vídeo de apresentação
 
-<video width="100%" height="640" controls>
+<video width="420" height="320" controls>
   <source src="./assets/video-faculdade.mp4" type="video/mp4">
   Seu navegador não suporta o elemento de vídeo.
 </video>

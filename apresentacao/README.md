@@ -18,7 +18,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ## Vídeo de apresentação
 
-<video src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" data-canonical-src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
+https://user-images.githubusercontent.com/13721147/206930912-b913abd9-1611-48ac-98d5-acc15c54b9ed.mp4
 
 
 ## Hospedagem

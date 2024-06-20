@@ -26,7 +26,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
     <span aria-label="Video description Apresentacao.Pipoco.mp4" class="m-1">Apresentacao.Pipoco.mp4</span>
     <span class="dropdown-caret"></span>
   </summary>
-    <video src="./assets/video-faculdade_IDJLJgI9.mp4" data-canonical-src="./assets/video-faculdade_IDJLJgI9.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+    <video src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" data-canonical-src="https://utfs.io/f/8c3f57f9-8382-4bc9-b900-f79604acf5e3-d90qq.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
     </video>
 </details>
 

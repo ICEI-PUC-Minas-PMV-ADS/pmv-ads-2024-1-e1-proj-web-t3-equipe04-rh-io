@@ -1,0 +1,27 @@
+message: Please cite this software using these metadata.
+title:RH.IO
+authors:
+  - family-names: de Assis Vilela
+    given-names: Davi
+  - family-names: Cardoso Nascimento
+    given-names: Fernando 
+  - family-names:  Lima Fernandes
+    given-names: Rayssa
+  - family-names: Franscisco dos Santos Martins
+    given-names: Hudson 
+
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone 
+keywords:
+  - Gestão
+  - Recursos Humanos
+  - Entrevistas 
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe04-rh-io
+version: 1.0.0
+date-released: 2024-06-23
